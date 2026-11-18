@@ -1,0 +1,52 @@
+SOURCE SIZE (production Java files)
+===================================
+Each source is below 500 lines.
+
+InventoryService.java          495
+MainFrame.java                 484
+CustomerDataStore.java         283
+CsvDatabase.java               280
+CustomerPanel.java             232
+UiTheme.java                   206
+PurchasingPanel.java           195
+RoleLoginPanel.java            178
+SalesPanel.java                155
+RoleSelectionPanel.java        154
+AppIcon.java                   133
+InventoryDialogs.java          127
+StockAlertDialog.java          121
+PurchaseOrder.java             114
+Product.java                   102
+ProductsPanel.java             100
+DashboardPanel.java            99
+RoleAuthStore.java             97
+SalesTrendChart.java           94
+TransactionRecord.java         91
+StockPanel.java                84
+ReturnsPanel.java              79
+RestockRequestsPanel.java      79
+FileReplacer.java              79
+StockStatusPieChart.java       75
+StockAlertBanner.java          75
+ReportsPanel.java              70
+ProductArtwork.java            66
+CsvUtil.java                   64
+Supplier.java                  59
+AppPanel.java                  55
+CustomerOrder.java             52
+SuppliersPanel.java            51
+Inventory.java                 44
+RestockRequest.java            42
+ProductTableModel.java         41
+CustomerAccount.java           38
+UserRole.java                  33
+IconKind.java                  22
+SupplierChoice.java            21
+ProductChoice.java             21
+CartLine.java                  21
+IoAction.java                  19
+
+Compile from this directory with:
+    javac -encoding UTF-8 Inventory.java
+Run with:
+    java Inventory

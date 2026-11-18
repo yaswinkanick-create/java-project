@@ -1,0 +1,19 @@
+REQUIRES: JDK 17 or later
+
+1. Open a terminal in this folder.
+2. Compile all required source files through the entry file:
+
+   javac -encoding UTF-8 Inventory.java
+
+3. Run the application:
+
+   java Inventory
+
+All .java files must remain together in this folder. The data/ directory and CSV files are created on first run.
+
+Packaged JAR alternative:
+   java -jar dist/InventoryManager.jar
+
+For a fresh build of the JAR:
+   build.bat        (Windows)
+   ./build.sh       (Linux/macOS)
